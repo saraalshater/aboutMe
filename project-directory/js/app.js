@@ -1,10 +1,8 @@
 'use strict';
 
-// let userName = prompt('Hey, What is your name?');
+let userName = prompt('Hey, What is your name?');
 
-// alert('Welcome ' + userName);
-
-
+alert('Welcome ' + userName);
 
 
 
@@ -13,27 +11,31 @@
 
 
 
-// let firstQustion = prompt('Do you think I am above 25?');
 
-// switch (firstQustion.toLowerCase()) {
-//     case 'yes':
-//         case 'y':
-//         // console.log('I am under 25')
-//         alert('False I am under 25')
-//         break;
+function question1(){
+let firstQustion = prompt('Do you think I am above 25?');
 
-//     case 'no':
-//         case 'n':
-//         // console.log('true I am 24')
-//         alert('True I am 24')
-//         break;
+switch (firstQustion.toLowerCase()) {
+    case 'yes':
+        case 'y':
+        // console.log('I am under 25')
+        alert('False I am under 25')
+        break;
 
-//     default:
-//         // console.log('only answer with yes or no')
-//         alert('Answer only with yes or no')
-//         break;
-// }
+    case 'no':
+        case 'n':
+        // console.log('true I am 24')
+        alert('True I am 24')
+        break;
 
+    default:
+        // console.log('only answer with yes or no')
+        alert('Answer only with yes or no')
+        break;
+}
+
+}
+question1();
 
 // let secondQustion = prompt('Do you think that i have a cat?');
 
@@ -124,34 +126,34 @@
 
 
 
-let numGuess = prompt('Guess my favorite number');
+// let numGuess = prompt('Guess my favorite number');
 
-// score=0;
+// // score=0;
 
-if (numGuess > 6) {
-    alert('thats too high');
+// if (numGuess > 6) {
+//     alert('thats too high');
 
-} else if (numGuess < 6) {
-    alert('thats too low');
+// } else if (numGuess < 6) {
+//     alert('thats too low');
 
-} else {
-    alert('Great! 6 is the correct number');
-    // score++;
-}
+// } else {
+//     alert('Great! 6 is the correct number');
+//     // score++;
+// }
 
 
-for (let i = 0; i <= 2; i++) {
+// for (let i = 0; i <= 2; i++) {
 
-    if (numGuess > 6 || numGuess < 6) {
-        prompt('Guess my favorite number again');
-    }else if(i === 1){ 
-        alert('The correct number is 6');
- }else {
-        break;
-    }
+//     if (numGuess > 6 || numGuess < 6) {
+//         prompt('Guess my favorite number again');
+//     }else if(i === 1){ 
+//         alert('The correct number is 6');
+//  }else {
+//         break;
+//     }
     
-    console.log(i);
-}
+//     console.log(i);
+// }
 
 
 
