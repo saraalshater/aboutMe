@@ -127,17 +127,20 @@
 let numGuess = prompt('Guess my favorite number');
 
 // score=0;
-
-if (numGuess > 6) {
-    alert('thats too high');
-
-} else if (numGuess < 6) {
-    alert('thats too low');
-
-} else {
-    alert('Great! 6 is the correct number');
-    // score++;
+for (let i = 0; i < 3; i++) {
+    
+    if (numGuess > 6) {
+        alert('thats too high');
+    
+    } else if (numGuess < 6) {
+        alert('thats too low');
+    
+    } else {
+        alert('Great! 6 is the correct number');
+        // score++;
+    }
 }
+
 
 
 for (let i = 0; i <= 2; i++) {
