@@ -37,137 +37,150 @@ switch (firstQustion.toLowerCase()) {
 }
 question1();
 
-// let secondQustion = prompt('Do you think that i have a cat?');
 
-// switch (secondQustion.toLowerCase()) {
-//     case 'yes':
-//         case 'y':
-//         // console.log('false I dont like to have a pet');
-//         alert('False I dont pets');
-//         break;
+function question2(){
+let secondQustion = prompt('Do you think that i have a cat?');
 
-//     case 'no':
-//         case 'n':
-//         // console.log('benar saya tidak suka kucing');
-//         alert('True i dont like pets');
-//         break;
+switch (secondQustion.toLowerCase()) {
+    case 'yes':
+        case 'y':
+        // console.log('false I dont like to have a pet');
+        alert('False I dont pets');
+        break;
 
-//     default:
-//         // console.log('only answer with yes or no')
-//         alert('Answer only with yes or no')
-//         break;
-// }
+    case 'no':
+        case 'n':
+        // console.log('benar saya tidak suka kucing');
+        alert('True i dont like pets');
+        break;
 
+    default:
+        // console.log('only answer with yes or no')
+        alert('Answer only with yes or no')
+        break;
+}
+}
+question2();
 
-// let thirdQustion = prompt('Can you see me?');
+function question3(){
+let thirdQustion = prompt('Can you see me?');
 
-// switch (thirdQustion.toLocaleLowerCase()) {
-//     case 'no':
-//         case 'n':
-//         // console.log('True you cant see me haha');
-//         alert('True you cant see me');
-//         break;
+switch (thirdQustion.toLocaleLowerCase()) {
+    case 'no':
+        case 'n':
+        // console.log('True you cant see me haha');
+        alert('True you cant see me');
+        break;
 
-//     case 'yes':
-//         case 'y':
-//         // console.log('Woow you have a superpower');
-//         alert('Woow you have a superpower');
-//         break;
+    case 'yes':
+        case 'y':
+        // console.log('Woow you have a superpower');
+        alert('Woow you have a superpower');
+        break;
 
-//         default:
-//             alert('Only answer with yes or no');
-//             break;
-// }
+        default:
+            alert('Only answer with yes or no');
+            break;
+}
+}
+question3();
 
+function question4(){
+let fourthQustion = prompt('Do you think I can swim?');
 
-// let fourthQustion = prompt('Do you think I can swim?');
+switch(fourthQustion.toLocaleLowerCase()){
+    case 'yes':
+        case 'y':
+        // console.log('False! I cant swim');
+        alert('False! I cant swim');
+        break;
 
-// switch(fourthQustion.toLocaleLowerCase()){
-//     case 'yes':
-//         case 'y':
-//         // console.log('False! I cant swim');
-//         alert('False! I cant swim');
-//         break;
+        case'no':
+        case 'n':
+        // console.log('True! I cant swim');
+        alert('True! I cant swim');
+        break;
 
-//         case'no':
-//         case 'n':
-//         // console.log('True! I cant swim');
-//         alert('True! I cant swim');
-//         break;
+        default:
+            // console.log('ONLY ANSWER WITH YES OR NO');
+            alert('ONLY ANSWER WITH YES OR NO');
+            break;
+}}
+question4();
 
-//         default:
-//             // console.log('ONLY ANSWER WITH YES OR NO');
-//             alert('ONLY ANSWER WITH YES OR NO');
-//             break;
-// }
+function question5(){
+let fifthQustion = prompt('Do you think I can draw ?');
 
+switch(fifthQustion.toLocaleLowerCase()){
+    case 'yes':
+        case 'y':
+        // console.log('True! I love drawing');
+        alert('True! I love drawing');
+        break;
 
-// let fifthQustion = prompt('Do you think I can draw ?');
+        case'no':
+        case 'n':
+        // console.log('false! i love drawing');
+        alert('False! i love drawing');
+        break;
 
-// switch(fifthQustion.toLocaleLowerCase()){
-//     case 'yes':
-//         case 'y':
-//         // console.log('True! I love drawing');
-//         alert('True! I love drawing');
-//         break;
+        default:
+            // console.log('ONLY ANSWER WITH YES OR NO');
+            alert('ONLY ANSWER WITH YES OR NO');
+            break;
 
-//         case'no':
-//         case 'n':
-//         // console.log('false! i love drawing');
-//         alert('False! i love drawing');
-//         break;
-
-//         default:
-//             // console.log('ONLY ANSWER WITH YES OR NO');
-//             alert('ONLY ANSWER WITH YES OR NO');
-//             break;
-
-// }
-
-
-
-// let numGuess = prompt('Guess my favorite number');
-
-// // score=0;
-
-// if (numGuess > 6) {
-//     alert('thats too high');
-
-// } else if (numGuess < 6) {
-//     alert('thats too low');
-
-// } else {
-//     alert('Great! 6 is the correct number');
-//     // score++;
-// }
+}
+}
+question5();
 
 
-// for (let i = 0; i <= 2; i++) {
+function question6(){
+let numGuess = prompt('Guess my favorite number');
 
-//     if (numGuess > 6 || numGuess < 6) {
-//         prompt('Guess my favorite number again');
-//     }else if(i === 1){ 
-//         alert('The correct number is 6');
-//  }else {
-//         break;
-//     }
+// score=0;
+
+if (numGuess > 6) {
+    alert('thats too high');
+
+} else if (numGuess < 6) {
+    alert('thats too low');
+
+} else {
+    alert('Great! 6 is the correct number');
+    // score++;
+}
+
+
+for (let i = 0; i <= 2; i++) {
+
+    if (numGuess > 6 || numGuess < 6) {
+        prompt('Guess my favorite number again');
+    }else if(i === 1){ 
+        alert('The correct number is 6');
+ }else {
+        break;
+    }
     
-//     console.log(i);
-// }
+    console.log(i);
+}
 
 
 
-// alert('The correct numer is 6');
+alert('The correct numer is 6');
+}
+question6();
 
+// function question7(){
 // let hobbyQustion=prompt{'what is my faveorite hobby? drawing,singing,reading,dancing,skating,coding,eating,driving'};
 // let myHobby=['drawing','singing','reading','dancing','skating','coding'];
 
 
-// for (let i = 0 ; i <=6 ; i++ ) {
+// // for (let i = 0 ; i <=6 ; i++ ) {
     
     
+// // }
 // }
-
+// question7();
 
 
 
