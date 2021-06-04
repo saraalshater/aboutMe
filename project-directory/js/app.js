@@ -18,133 +18,133 @@ alert('Welcome ' + userName);
 let score = 0;
 // // ------------------------------------------------------Question1----------------------------------------------
 
-// function question1() {
+function question1() {
 
-//     let firstQustion = prompt('Do you think I am above 25?');
+    let firstQustion = prompt('Do you think I am above 25?');
 
-//     firstQustion = firstQustion.toLowerCase()
+    firstQustion = firstQustion.toLowerCase()
 
-//     if (firstQustion === 'yes' || firstQustion === 'y') {
+    if (firstQustion === 'yes' || firstQustion === 'y') {
 
-//         alert('False I am under 25')
-//     } else if (firstQustion === 'no' || firstQustion === 'n') {
+        alert('False I am under 25')
+    } else if (firstQustion === 'no' || firstQustion === 'n') {
 
 
-//         alert('True I am 24')
-//         score++;
-//     } else {
+        alert('True I am 24')
+        score++;
+    } else {
 
-//         alert('Answer only with yes or no')
+        alert('Answer only with yes or no')
 
-//     }
+    }
 
-// }
-// question1();
+}
+question1();
 
 // // ------------------------------------------------------Question2----------------------------------------------
 
 
-// function question2() {
-//     let secondQustion = prompt('Do you think that i have a cat?');
+function question2() {
+    let secondQustion = prompt('Do you think that i have a cat?');
 
-//     secondQustion = secondQustion.toLowerCase()
-
-
-//     if (secondQustion === 'yes' || secondQustion === 'y') {
-
-//         alert('False I dont pets');
-//     } else if (secondQustion === 'no' || secondQustion === 'n') {
+    secondQustion = secondQustion.toLowerCase()
 
 
-//         alert('True i dont like pets');
-//         score++;
-//     } else {
+    if (secondQustion === 'yes' || secondQustion === 'y') {
 
-//         alert('Answer only with yes or no')
-
-
-//     }
-// }
+        alert('False I dont pets');
+    } else if (secondQustion === 'no' || secondQustion === 'n') {
 
 
-// question2();
+        alert('True i dont like pets');
+        score++;
+    } else {
+
+        alert('Answer only with yes or no')
+
+
+    }
+}
+
+
+question2();
 
 
 // // ------------------------------------------------------Question3----------------------------------------------
 
 
-// function question3() {
-//     let thirdQustion = prompt('Do you think i like chips');
+function question3() {
+    let thirdQustion = prompt('Do you think i like chips');
 
-//     thirdQustion = thirdQustion.toLocaleLowerCase();
+    thirdQustion = thirdQustion.toLocaleLowerCase();
 
-//     if (thirdQustion === 'no' || thirdQustion === 'n') {
+    if (thirdQustion === 'no' || thirdQustion === 'n') {
 
-//         alert('True i dont eat chips');
-//         score++;
-//     } else if (thirdQustion === 'yes' || thirdQustion === 'y') {
+        alert('True i dont eat chips');
+        score++;
+    } else if (thirdQustion === 'yes' || thirdQustion === 'y') {
 
 
-//         alert('false i dont eat chips');
+        alert('false i dont eat chips');
 
-//     } else {
+    } else {
 
-//         alert('Only answer with yes or no');
+        alert('Only answer with yes or no');
 
-//     }
-// }
-// question3();
+    }
+}
+question3();
 
 // // ------------------------------------------------------Question4----------------------------------------------
 
-// function question4() {
+function question4() {
 
-//     let fourthQustion = prompt('Do you think I can swim?');
+    let fourthQustion = prompt('Do you think I can swim?');
 
-//     fourthQustion = fourthQustion.toLocaleLowerCase()
+    fourthQustion = fourthQustion.toLocaleLowerCase()
 
-//     if (fourthQustion === 'yes' || fourthQustion === 'y') {
-
-
-//         alert('False! I cant swim');
-//     } else if (fourthQustion === 'no' || fourthQustion === 'n') {
+    if (fourthQustion === 'yes' || fourthQustion === 'y') {
 
 
-
-//         alert('True! I cant swim');
-//         score++;
-//     } else {
-
-//         alert('ONLY ANSWER WITH YES OR NO');
-//     }
-// }
-// question4();
-
-// // ------------------------------------------------------Question5----------------------------------------------
-
-// function question5() {
-
-//     let fifthQustion = prompt('Do you think I can draw ?');
-
-//     fifthQustion = fifthQustion.toLocaleLowerCase()
-
-//     if (fifthQustion === 'yes' || fifthQustion === 'y') {
-
-//         alert('True! I love drawing');
-//         score++;
-//     } else if (fifthQustion === 'no' || fifthQustion === 'n') {
+        alert('False! I cant swim');
+    } else if (fourthQustion === 'no' || fourthQustion === 'n') {
 
 
-//         alert('False! i love drawing');
-//     } else {
+
+        alert('True! I cant swim');
+        score++;
+    } else {
+
+        alert('ONLY ANSWER WITH YES OR NO');
+    }
+}
+question4();
+
+// ------------------------------------------------------Question5----------------------------------------------
+
+function question5() {
+
+    let fifthQustion = prompt('Do you think I can draw ?');
+
+    fifthQustion = fifthQustion.toLocaleLowerCase()
+
+    if (fifthQustion === 'yes' || fifthQustion === 'y') {
+
+        alert('True! I love drawing');
+        score++;
+    } else if (fifthQustion === 'no' || fifthQustion === 'n') {
 
 
-//         alert('ONLY ANSWER WITH YES OR NO');
-//     }
-// }
-// question5();
+        alert('False! i love drawing');
+    } else {
 
-// alert(userName +' your score is ' + score +'/5'); 
+
+        alert('ONLY ANSWER WITH YES OR NO');
+    }
+}
+question5();
+
+alert(userName +' your score is ' + score +'/5'); 
 
 // ------------------------------------------------------Question6----------------------------------------------
 
